@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body class="contact-page">
+    <header id="header-main"></header>
+    <h1 class="cont">Please feel free to contact me here:</h1>
+    <div>
+        <form name="validationForm" action="test.php" method="post" onsubmit="return validateForm();">
+            <div class="form-controls">
+                <label for="firstName">First Name</label>
+                <input name="firstName" id="firstName" required>
+            </div>
+            <div class="form-controls">
+                <label for="lastName">Last Name</label>
+                <input name="lastName" id="lastName">
+            </div>
+            <div class="form-controls">
+                <label for="email">Email</label>
+                <input name="email" id="email" required>
+            </div>
+            <div class="form-controls form-buttons">
+                <button type="submit" name="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>

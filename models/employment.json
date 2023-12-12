@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "company": "SURE At The New School",
+        "date": "May 2019 - September 2019",
+        "position": "Research Assistant",
+        "description": "Assisted in research on headphones and earphones to test for microbiome, and linking to possible ear infections."
+    },
+    {
+        "id": 2,
+        "company": "Dev10",
+        "date": "July 2022 - November 2023",
+        "position": "Software Development Consultant",
+        "description": "Performed consultant duties in helping and aiding cloud enablement team, develop and deploy applications, and automations."
+    },
+    {
+        "id": 3,
+        "company": "Prudential Financial",
+        "date": "November 2023 - present",
+        "position": "Software Engineer",
+        "description": "Working with teams and assisting in deploying applications to the cloud infrastructure, working on optimizing infrastructure and application deployment."
+    }
+]

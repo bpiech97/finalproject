@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "school": "The New School",
+        "class": 2019,
+        "degree": "Bachelor of Science",
+        "major": "Interdisciplinary Science"
+    },
+    {
+        "id": 2,
+        "school": "Boston University",
+        "class": 2024,
+        "degree": "Master of Science",
+        "major": "Computer Information Systems"
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "title": "Guidr",
+        "role": "Worked on the database using MySQL and backend written in Java, as well as gave support to the team during frontend development and deployment",
+        "description": "Guidr is an application that focuses on mapping famous movie locations around different cities in the United States and Canada. Having different tours based on location, theme, or specific actors, Guidr allows the user to track famous movie locations on a map, as well as giving the user a little history behind the significance of each included place. Guidr also allows the user to create an account, enabeling them to rate the tours, give feedback and suggestions for future tours, as well as create user-created tours themselves. Though the application was public, the application is no longer worked on, and the website is not in service."
+    }
+]

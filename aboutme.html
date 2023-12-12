@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.0/vue.global.min.js" integrity="sha512-FoPuJUwBEL6FkeJZcmV/zTgUQO2G/feesn8dgFmYYJMZZZInQ2Oqfeeo02hYfKHjwGWZdcK5afJaY0VDK8Fatw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js" defer ></script>
+    <script src="./js/vueabout.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header-main"></header>
+
+    <main>
+        <div id="app">
+            <h1>About Me</h1>
+            <article id="aboutsection">
+                <h2 id="background">Background</h2>
+                <p id="lifestory">Born and raised in Brooklyn New York, ever since I was a child I had a passion for computers. I was always surrounded by my dad's computers and gaming 
+                consoles, and was fascinated when hew would fix and/or modify his hardware. Although I did not start programming until I was in college, I was always fascinated by it.
+                Once I was able to start learning software development and coding, I have been trying to learn different ways of applying my skills, with everything from writing games,
+                creating websites(at least trying to), and maintaining cloud servers and computing.</p>
+            </article>
+            <h1>{{title}} </h1>
+
+            <section>
+              <jobs-list v-if="content.jobs" 
+                :jobs="jobs"></jobs-list>
+              
+            </section>
+          </div>
+    </main>    
+    <footer id="footer-main"></footer>
+</body>
+
+</html>

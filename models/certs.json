@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "FullStack Java Developer",
+        "obtained" : 2022,
+        "company": "Dev10"
+    },
+    {
+        "id": 2,
+        "name": "Cloud Practitioner",
+        "obtained" : 2023,
+        "company": "Amazon Web Services"
+    }
+]

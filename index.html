@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.10/vue.global.min.js" integrity="sha512-es4vSPtFlEKtmABZjNbGIagxq+4vAymgRWKhEt4C7Z+R8nHasGt/1H5JCBnUILChOXg1i1bImtqHul/LM7UxlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js" defer ></script>
+    <script src="./js/vuehome.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header-main"></header>
+
+    <main>
+        <div id="app">
+
+            <title-component :title="title"></title-component>
+
+            <message-content :message="msg"></message-content>
+
+            <div id="video">
+                <iframe width="600" height="350"
+                src="https://www.youtube.com/embed/SOTamWNgDKc">
+                </iframe>
+            </div>
+
+            <quote-component :quote="quote"></quote-component>
+
+        </div>
+        
+    </main>    
+    <footer id="footer-main"></footer>
+</body>
+
+</html>

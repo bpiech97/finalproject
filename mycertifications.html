@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certs</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/certs.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.0/vue.global.min.js" integrity="sha512-FoPuJUwBEL6FkeJZcmV/zTgUQO2G/feesn8dgFmYYJMZZZInQ2Oqfeeo02hYfKHjwGWZdcK5afJaY0VDK8Fatw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js" defer ></script>
+    <script src="./js/vuecerts.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header-main"></header>
+
+    <main>
+        <div id="app">
+            <h1>{{title}} </h1>
+            <br>
+            <h3>{{tagline}}</h3>
+
+            <section>
+              <cert-list v-if="content.certs" 
+                :certs="certs"></cert-list>
+              
+            </section>
+          </div>
+    </main>    
+    <footer id="footer-main"></footer>
+</body>
+
+</html>
